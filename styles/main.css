@@ -1,0 +1,102 @@
+/* general styles*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: white;
+}
+
+
+
+body { /*selector for body, adjusting font size, margin, background*/
+	font-size: 100%;
+	background-color: #A1F3E5;
+	width: 700px;
+	margin: auto;
+	/*border-top: 3px solid black;
+	border-right: solid black;
+	border-bottom: solid black;
+	border-left: solid black;*/
+	border: 3px solid black
+}
+
+
+/*styles for header*/
+header { /*type selector*/
+	text-align: center;
+	/*border: 2px solid black;*/
+	border-bottom: 3px solid black;
+	height: 356px;
+	background-image: -webkit-linear-gradient (60deg, red 0%, white 50%, blue 100%);
+}
+
+
+main li { /*descendant selector*/
+	font-size: 125%;
+	list-style-type: square;
+	color: black;
+}
+
+main p { /*descend selector */
+	font-size; 125%
+	padding-left: .75em;
+	padding-right: .75em;
+	padding-top: .75em;
+	padding-bottom: .75em; 
+	/*padding: .5em .25em .15em 2em;*/ /*top right bottom left*/ 
+}
+
+main ul {
+	padding-left: 2em;
+	padding-right: 2em:
+}
+
+/*styles for main section*/
+h1, h2{ /*multiple selector*/
+	color: red;
+	font-size: 225%;
+	padding-top: 2em;
+}
+ 
+main { /* child selector */
+	float: left;
+}
+
+.large { /* class selector*/
+	font-size: 150%;
+	
+}
+
+.center {
+	text-align: center;
+	}
+	
+aside {
+	float: right;
+	width: 350px;
+	border: 2px solid black;
+	font-size: 100%;
+	text-align: center;	
+}
+
+#copyright {
+	text-align: center;
+	}
+	
+footer { 
+	clear: both;
+}
+
+a:link { /* pseudo selector -for link/website */
+	color: orange;
+/*	font-size: 200%;*/
+}
+
+a:hover, a:focus { /*pseudo selector- hover over link*/
+	color: yellow;
+}
+
+/*styles for footer*/
